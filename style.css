@@ -1,0 +1,18 @@
+header{
+	background-color: red;
+	height: 3rem;
+}
+
+footer{
+	background-color: blue;
+	height: 2rem
+}
+
+div{
+	background-color: yellow;
+}
+
+.box{
+	margin: 0 auto;
+	width: 100px;
+}
