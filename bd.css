@@ -1,3 +1,36 @@
 body {
-	background-color:#333333 ;
+	background: #111;
+	display: flex;
+	justify-content: center;
+}
+
+#canvas {
+	align-content: center;
+	display: flex;
+	justify-content: center;
+}
+
+#canvass {
+	max-height: 100vh;
+	max-width: 100vw;
+}
+
+#text-container {
+	align-content: center;
+	background-color: rgba(10, 10, 10, 0.6);
+	border: solid 1px rgba(70, 70, 70, 0.4);
+	border-radius: 5px;
+	bottom: 7.5vh;
+	color: #EEE;
+	display: flex;
+	height: 5.75rem;
+	font-size: 1rem;
+	padding: 10px 24px;
+	position: fixed;
+	width: 80vw;
+	z-index: 10;
+}
+
+.nom {
+	font-weight: bold;
 }
