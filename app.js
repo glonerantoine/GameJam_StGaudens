@@ -1,4 +1,4 @@
-var canvas=["gamejam.svg","gamejam2.svg","gamejam3.svg","gamejam4.svg","gamejam5.svg"];
+var canvas=["gamejam.svg","gamejam2.svg","gamejam3.svg","gamejam4.svg","gamejam5.svg","gamejam6.svg"];
 var i=0
 $('#canvass').attr('src','assets/'+canvas[i])
 $('#canvas').click(function(){
