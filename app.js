@@ -1,4 +1,4 @@
-var canvas=["gamejam.svg","gamejam2.svg","gamejam6.svg","gamejam3.svg","gamejam4.svg","gamejam5.svg"];
+var canvas=["gamejam_intro.svg","gamejam.svg","gamejam2.svg","gamejam6.svg","gamejam3.svg","gamejam4.svg","gamejam5.svg"];
 var i=0
 $('#canvass').attr('src','assets/'+canvas[i])
 $('#canvas').click(function(){
@@ -7,7 +7,7 @@ $('#canvas').click(function(){
 	$('#canvass').fadeIn('medium');
 	setTimeout(affiche,400)
 
-	choice()
+	setTimeout(choice,700)
 
 	//changement de text / fadeOut  FadeIn Text 
 })
@@ -18,13 +18,17 @@ var scene = ["<span class='nom'>Père</span> : C'est pas possible. Tu prends tes
 var scene2 = ["<p>Bonjour</p>"];
 function choice() {
 		switch(i){
-			case 0:
+			case 1:
 			document.getElementById("text").innerHTML = scene;
 			break;
-			case 1:
+			case 2:
 			document.getElementById("text").innerHTML = scene2;
 		}
-
+		if (i==0){
+			$('#text-container').css('visibility','hidden')
+		} else {
+			$('#text-container').css('visibility','visible')
+		}
 
 
 
