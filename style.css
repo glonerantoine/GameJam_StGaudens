@@ -1,15 +1,19 @@
+body{
+	background-color: #E9E9E9;
+}
+
 header{
-	background-color: red;
+	background-color: #FAFAFA;
 	height: 3rem;
 }
 
 footer{
-	background-color: blue;
+	background-color: #FAFAFA;
 	height: 2rem
 }
 
 div{
-	background-color: yellow;
+	background-color: ;
 }
 
 .box{
