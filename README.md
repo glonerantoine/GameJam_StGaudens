@@ -91,3 +91,39 @@ Alex : "Désolé(e) ! Vraiment ! J'ai des ennuis et j'ai pas fait gaffe."
 Inconnu : "Qu'est-ce qu'il se passe ?"
 Alex : "Je suis homosexuel et ..."
 Recoit message sur tél. Bouscule qqun. Explique. Refuge.
+
+Array de textes à afficher
+const texts = [
+	// Séquence 1
+	'<span class="nom">Père</span> : "C'est pas possible. Tu prends tes affaires et tu te tires !"<br><span class="nom">Mère</span> : "Tu ne remets plus jamais les pieds ici ! Tu ne t'approches pas de nous. Tu ne cherches pas à nous revoir. Tu ne nous appelles pas. Tu ne parles pas de nous."',
+	'<span class="nom">Alex</span> : "..."<br><span class="nom">Père</span> : "Tu te tires..."<br>',
+	'<span class="nom">Tous</span> : "..."<br>',
+	'<span class="nom"></span>Alex sort.<br>',
+	'<span class="nom">Père</span> : "Tu fais pleurer ta mère, tu veux la tuer ?"<br>',
+	'<span class="nom"></span> Le père claque la porte<br>Alex s'éloigne de la maison à reculons.',
+	
+	// Séquence 2
+	'<span class="nom"></span> Il pleut. Alex est assis, il pleure, la tête dans ses mains.<br>',
+	'<span class="nom">Alex</span> : "Il faut que je me ressaisisse. Que je trouve un endroit où dormir."<br><span class="nom">Alex</span> : "Qui pourrait m'aider ?"',
+	'<span class="nom">Père</span> : "Qui pourrait m'aider ?"<br>',
+	// Séquence 2 si frère
+	'<span class="nom">Alex</span> : "Ha oui ! Lui ! Mon meilleur ami : on fait du sport ensemble depuis des années, on sait presque tout l'un de l'autre !"<br>',
+	// Séquence 2 si ami
+	'<span class="nom">Alex</span> : "Sans hésitation ! Mon grand frère : on a grandi ensemble, avec deux ans d'écarts. On sait presque tout l'un de l'autre. "<br>',
+	
+	// Séquence 3 si frère
+	'<span class="nom"></span>Alex vient d'expliquer la situation à son frère...<br>',
+	'<span class="nom">Frère</span> : "Quoi ? C'est pas possible, Alex ! Comment tu peux nous faire ça ? On est ta famille !"<br><span class="nom">Alex</span> : "... Quoi ???"',
+	'<span class="nom">Frère</span> : "On ne t'a pas donnée assez d'amour. C'est ça ?"<br><span class="nom">Alex</span> : "..."',
+	'<span class="nom">Frère</span> : "Tu vas pas pouvoir rester ici par contre. Les parents ne le supporterait pas et..."<br>'<span class="nom">Frère</span> : "Et...",
+	'<span class="nom">Frère</span> : "Et... Et moi aussi. Je pourrai pas te regarder en face en sachant ça. Faut pas croire : t'es mon frère mais..."<br><span class="nom">Frère</span> : "Un conseil : t'en parles à PERSONNE ! Tu m'entends ? Les gens doivent pas le savoir. Sinon..."',
+	'<span class="nom">Frère</span> : "En parle juste pas."<br>',
+	// Séquence 3 si ami
+	'<span class="nom"></span>Alex vient d'expliquer la situation à son ami...<br>',
+	'<span class="nom">Ami</span> : "Ha mince..."<br><span class="nom">Ami</span> : "C'est embêtant, tu vois."',
+	'<span class="nom">Ami</span> : "Je veux bien t'héberger parce que l'on se connaît depuis longtemps et qu'on est amis."<br>'<span class="nom">Ami</span> : "Mais ne m'en demande pas trop : ça va être difficile pour moi. De te regarder dans les yeux et même d'avoir une discussion normale...",
+	'<span class="nom">Alex</span> : "C'est pas comme si j'étais malade, tu sais."<br><span class="nom">Ami</span> : "Pour l'instant, tu peux occuper le canapé. Je vais au taf. On se voit ce soir."<br>',
+	'<span class="nom">Alex</span> : "Merci en tous cas."<br><span class="nom">Ami</span> : "Sûr. Hésite pas à vider le frigo !"<br>',
+	
+	// Séquence 4 to be continued
+]
